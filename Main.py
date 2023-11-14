@@ -29,7 +29,7 @@ class CylinderFillVolume(QWidget):
         self.calculate_button.clicked.connect(self.calculate)
 
     def horizontal_cylinder_volume(self, V):
-        d = 258.74 # diameter in cm
+        d = 258.74 # diameter in cm #This values can vary based on the cylinders 
         l = 366.72 # length in cm
         r = d/2
         cylinder_volume = math.pi * (r ** 2) * l
